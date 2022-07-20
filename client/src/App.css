@@ -1,0 +1,22 @@
+/* ==================== Reseting HTML ==================== */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+}
+
+.application {
+  width: min(20rem, 90%);
+  margin-inline: auto;
+  text-align: center;
+}
+
+.input__area {
+  display: flex;
+  flex-direction: column;
+}
